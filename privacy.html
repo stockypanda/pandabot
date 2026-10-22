@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panda Bot – Privacy Policy</title>
+<meta name="description" content="What data Panda Bot collects, how it is used, how long it is kept and how to delete it.">
+<style>
+  :root { --bg: #ffffff; --text: #1f2328; --muted: #59636e; --line: #d1d9e0; --accent: #5865f2; --card: #f6f8fa; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16171a; --text: #e6e7ea; --muted: #9da3ad; --line: #30333a; --accent: #8b95ff; --card: #1f2126; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 36px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 20px 0 4px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  ul { padding-left: 1.25rem; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--line); }
+  th { background: var(--card); }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; }
+  nav { margin-bottom: 24px; font-size: 0.95rem; }
+  code { background: var(--card); padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="index.html">Panda Bot</a> · <a href="terms.html">Terms of Service</a></nav>
+<h1>Privacy Policy</h1>
+<p class="muted">Effective date: 22 October 2026</p>
+
+<p>Panda Bot (“the bot”, “we”, “us”) is a free, community-run Discord bot. It posts the daily rummage pile locations for the game Palia, based on locations reported by community members, and offers event, poll and reminder commands. This policy explains what data the bot collects, how it is used and shared, how long it is kept, and how you can have it deleted.</p>
+<p>Panda Bot is a community project. It is not affiliated with Discord, or with Palia's developers or publishers.</p>
+
+<div class="box">
+<strong>In short:</strong> the bot only collects what it needs to run its features, never sells or shares data for advertising, deletes data automatically after the periods listed below, and lets you ask for your data to be deleted at any time with the <code>/privacy</code> command.
+</div>
+
+<h2>1. Data the bot collects</h2>
+<h3>Rummage location reports</h3>
+<p>When you report a rummage location with the bot's menus, it records your Discord user ID, username and display name, the name of the server you reported from, the map and location you chose, and the time. For each contributor it also keeps a running total of reports and, if set by the operator, whether the account is verified (trusted) or banned from reporting.</p>
+<p>When a location is confirmed, the display names and usernames of the people who reported it are credited publicly in the daily rummage post in every server that receives it.</p>
+
+<h3>Events, polls and reminders</h3>
+<ul>
+  <li>Your user ID when you RSVP to an event, vote in a poll, set a reminder or subscribe to someone else's reminder, together with your choice and reminder times.</li>
+  <li>The text you enter: event titles, descriptions and image links, poll questions and options, reminder titles, notification messages, templates and RSVP option sets.</li>
+  <li>Your personal settings (your time zone and notification preferences).</li>
+  <li>A server log of actions (who created, edited, RSVP'd to or deleted an event or poll, and when), which server admins can view.</li>
+</ul>
+
+<h3>Servers</h3>
+<p>The server ID and name, the IDs of the channels the bot posts in, the settings server admins choose (the rummage channel and quote preference set with <code>/rummage setup</code>, time zone, channels, role IDs), the user ID of the admin who set up the rummage posts, and the contact name and Discord username a server owner gives us when asking us to add the bot.</p>
+<p>When the bot is added to or removed from a server, or a server changes its rummage setup, the operator is sent the server's name and ID, its owner's user ID and its member count, so they can look after the service and prevent abuse. A history of these changes is kept in the bot's log file, including the user ID and username of whoever made each change.</p>
+
+<h3>Direct messages to the bot</h3>
+<p>If you send the bot a direct message, its text (and the names of any attachments or stickers), your user ID, username and display name are logged in a private channel and forwarded to the operator so they can reply to you.</p>
+
+<h3>Technical logs</h3>
+<p>The bot's console output on our hosting provider may contain IDs and error details, used only for troubleshooting.</p>
+
+<h3>What the bot does not collect</h3>
+<p>The bot cannot read messages in servers, and does not collect member lists, online status, email addresses, IP addresses, passwords or payment details.</p>
+
+<h2>2. How the data is used</h2>
+<p>Only to provide the bot's features:</p>
+<ul>
+  <li>confirming rummage locations when enough reports agree, crediting contributors, and preventing abuse (verified and banned accounts);</li>
+  <li>posting the daily rummage, running events, polls and reminders, and sending the DMs you asked for (RSVP confirmations, reminders, waitlist updates);</li>
+  <li>showing server admins their server's logs, answering support requests, and fixing problems.</li>
+</ul>
+<p>We do not use your data for advertising, do not sell it, do not build profiles of users, and do not use it to train AI models.</p>
+
+<h2>3. Who can see or receive it</h2>
+<ul>
+  <li><strong>Other users</strong> see what the features display: contributor credits in rummage posts, names on event RSVP lists, poll voters (unless the poll is anonymous), and server logs (server admins only).</li>
+  <li><strong>Discord</strong>, because all of the bot's features run on Discord.</li>
+  <li><strong>Our hosting provider</strong>, which stores the bot's files on our behalf.</li>
+  <li>Anyone else only if required by law.</li>
+</ul>
+
+<h2>4. Where it is stored</h2>
+<p>The bot's data is stored in files (a spreadsheet log, a database and a small state file) on our hosting provider's servers. Copies of the logs are posted to private channels in the operator's Discord server. The operator may download copies for maintenance and deletes them when no longer needed. Only the operator has access.</p>
+
+<h2>5. How long it is kept</h2>
+<table>
+  <tr><th>Data</th><th>Kept for</th></tr>
+  <tr><td>Rummage location reports and posting records</td><td>365 days, then deleted automatically</td></tr>
+  <tr><td>Contributor totals and verified/banned status</td><td>While needed for the rummage feature, or until you ask us to delete them</td></tr>
+  <tr><td>The current day's reports and credits (working copy)</td><td>Up to 3 days</td></tr>
+  <tr><td>Copies of logs and DMs in the operator's private Discord channels and DMs</td><td>30 days, then deleted automatically</td></tr>
+  <tr><td>Events and polls, including RSVPs and votes</td><td>Until 30 days after they end or are deleted</td></tr>
+  <tr><td>Server logs (event/poll actions)</td><td>30 days</td></tr>
+  <tr><td>Reminders</td><td>Until they are sent, then 7 days</td></tr>
+  <tr><td>Your personal settings</td><td>Until you delete them</td></tr>
+  <tr><td>Server settings and contact details</td><td>While the bot serves that server, or until the server asks us to delete them (a server's rummage setup is deleted when the bot is removed from it)</td></tr>
+  <tr><td>Server change history (bot added/removed, rummage setups and who made them, location report approvals, blocks)</td><td>365 days, then deleted automatically</td></tr>
+  <tr><td>Servers blocked for misuse, or whose location reports were paused</td><td>The server's ID and name, kept while the block or pause is in place</td></tr>
+</table>
+<p>Credits already posted publicly stay in the servers' channels until those servers delete the posts; after a deletion request you won't be credited in future posts.</p>
+
+<h2>6. Your choices and rights</h2>
+<ul>
+  <li><strong>Delete your data:</strong> use the <code>/privacy</code> command and click “Request deletion of my data”. Requests are checked and carried out by hand within 14 days, and the bot sends you a direct message when it's done (so please keep your DMs open). This removes your RSVPs, votes, reminders and settings, your name from server logs, rummage setups and the server change history, and your rummage report records. If your account was banned from reporting, a note of the ban is kept to prevent abuse.</li>
+  <li><strong>Stop DMs:</strong> turn RSVP confirmation DMs off in <code>/settings</code>, or close your DMs.</li>
+  <li><strong>Other requests</strong> (a copy of your data, corrections, or questions): send the bot a direct message. We aim to reply within 30 days.</li>
+</ul>
+<p>Depending on where you live (for example under the GDPR, UK GDPR, CCPA or LGPD), you may have rights to access, correct, delete or object to the processing of your data. Contact us as above to use them.</p>
+
+<h2>7. Children</h2>
+<p>You must meet Discord's minimum age to use Discord and this bot. The bot is not directed at children under that age. If we learn that we hold data from such a user, we delete it.</p>
+
+<h2>8. Security</h2>
+<p>Access to the bot's data is limited to the operator, and the bot's credentials are kept private. No system is perfectly secure; if your data is ever accessed without permission, we will inform affected users and Discord as required.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>We may update this policy as the bot changes. The effective date at the top shows when it was last updated.</p>
+
+<h2>10. Contact</h2>
+<p>Send the bot a direct message on Discord.</p>
+</main>
+</body>
+</html>
